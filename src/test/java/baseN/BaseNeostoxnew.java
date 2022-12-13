@@ -10,7 +10,7 @@ public class BaseNeostoxnew
     
 	public  void Launchneostox() throws InterruptedException
 	{
-		
+		// lounching browser
 	System.setProperty("webdriver.chrome.driver", "F:\\selenium folder\\chromedriver.exe");
 		
 		 driver=new ChromeDriver();
