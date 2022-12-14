@@ -13,17 +13,12 @@ import neoPOM.UtilityNew;
 
 
 public class Listerner extends BaseNeostoxnew implements ITestListener
- {
-	
-	
-	
-	
-	
-	
+ {	
 		public void onTestSuccess(ITestResult result)
 	{
 		Reporter.log("TC is completly success", true);
 	}
+		//iosterner is very importantat
 		
 	public void onTestFailure(ITestResult result) 
 	{
