@@ -39,12 +39,6 @@ public class UtilityNew
 	    {			
 			driver.manage().timeouts().implicitlyWait(Duration.ofMillis(waittime));
 			
-			
-			
-			
-			
-			
-			
 			Reporter.log("waiting for"+waittime+"mills",true);
 	    }
 	 public  static void TakeScreenshot(WebDriver driver,String filename ) throws IOException, InterruptedException
